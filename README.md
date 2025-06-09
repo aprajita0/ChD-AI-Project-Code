@@ -2,7 +2,6 @@
 
 This script filters cardiac MRI series that contain the word **"CINE"** in their DICOM Series Description field and copies them into a new folder for further analysis or machine learning processing.
 
-
 ## Requirements
 
 - Python 3.7+
@@ -20,8 +19,8 @@ pip install pydicom
 2. Update the following variables:
 
 ```python
-src_patient_folder = r"PATH\TO\PATIENT_FOLDER"     # Path to the folder containing all series
-dst_folder = r"PATH\TO\DESTINATION_FOLDER"         # Path where matching series will be copied
+src_patient_folder = r"PATH/TO/PATIENT_FOLDER"     # Path to the folder containing all series
+dst_folder = r"PATH/TO/DESTINATION_FOLDER"         # Path where matching series will be copied
 ```
 
 3. Run the script using the terminal or command prompt:
