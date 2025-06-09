@@ -1,0 +1,6 @@
+# Ignore all patient and data folders
+PAT*/                
+Patient*/             
+
+# DICOM files just in case
+*.dcm
